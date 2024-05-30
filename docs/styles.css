@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Fundo preto */
+    color:#fff;
+}
+
+.header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #0084ff; /* Texto preto */
+    position: relative;
+}
+
+.logo {
+    max-width: 100px; /* Tamanho máximo da logo */
+    margin-bottom: 10px; /* Espaço entre a logo e o texto */
+}
+
+.navbar {
+    background-color: #444; /* Fundo cinza escuro */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    padding: 14px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #0084ff; /* Texto amarelo claro */
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    background-color: #80c1ff; /* Fundo amarelo escuro ao passar o mouse */
+    color: #333; /* Texto preto ao passar o mouse */
+}
+
+.city-background {
+    background-image: url('Babilonia.webp'); /* Substitua com a URL da sua imagem de prédios */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+}
+
+.city-background::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6); /* Camada preta transparente */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    padding: 20px;
+    background-color: #444; /* Fundo cinza escuro */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.footer {
+    background-color: #0084ff; /* Amarelo mais escuro */
+    padding: 10px;
+    text-align: center;
+    color: #333; /* Texto preto */
+}
+
+.building {
+    background-color: #0084ff;
+    border: 2px solid #333;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-link {
+    color: #0084ff; /* Cor do link em amarelo */
+}
+
+.contact-link:hover {
+    color: #80c1ff; /* Cor do link ao passar o mouse em amarelo claro */
+}
+
+h2 {
+    color: #0084ff;
+    text-align: center;
+    border-bottom: 2px solid #0084ff;
+    padding-bottom: 1px;
+}
+
+ creditos p {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+ }
